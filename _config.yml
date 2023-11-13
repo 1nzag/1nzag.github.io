@@ -1,12 +1,12 @@
-title: John Smith
-description: My Personal Blog
-author: John Smith
+title: graypanda
+description: security research notes
+author: 1nzag (graypanda)
 logo: /static/img/avatar.png
-github: https://github.com/codeasashu
-about: Freelance developer
+github: https://github.com/1nzag
+about: security researcher
 
-baseurl: "https://codeasashu.github.io/hcz-jekyll-blog"
-url: "https://codeasashu.github.io/hcz-jekyll-blog"
+baseurl: "https://1nzag.github.io"
+url: "https://1nzag.github.io"
 
 allowsearch: true
 
