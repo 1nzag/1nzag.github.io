@@ -1,64 +1,62 @@
 ---
 layout: default
+title: Blog
 ---
-
-
-
-<!-- One -->
-    <section id="one">
-        <div class="container">
-            <header class="major">
-                <h2>Read Only</h2>
-                <p>Just an incredibly simple responsive site<br />
-                template freebie by <a href="http://html5up.net">HTML5 UP</a>.</p>
-            </header>
-            <p>Faucibus sed lobortis aliquam lorem blandit. Lorem eu nunc metus col. Commodo id in arcu ante lorem ipsum sed accumsan erat praesent faucibus commodo ac mi lacus. Adipiscing mi ac commodo. Vis aliquet tortor ultricies non ante erat nunc integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum.</p>
+<div class="well">
+    <div class="list-group">
+      {% for post in paginator.posts %}
+      <div class="list-group-item">
+        <div class="row-action-primary">
+          <i class="fa fa-sticky-note"></i>
         </div>
-    </section>
+        <div class="row-content">
+          <div class="least-content">{{ post.date | date_to_string }}</div>
+          <h4 class="list-group-item-heading"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h4>
 
-<!-- Two -->
-    <section id="two">
-        <div class="container">
-            <h3>Things I Can Do</h3>
-            <p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum integer lorem ipsum dolor sit amet.</p>
-            <ul class="feature-icons">
-                <li class="fa-code">Write all the code</li>
-                <li class="fa-cubes">Stack small boxes</li>
-                <li class="fa-book">Read books and stuff</li>
-                <li class="fa-coffee">Drink much coffee</li>
-                <li class="fa-bolt">Lightning bolt</li>
-                <li class="fa-users">Shadow clone technique</li>
-            </ul>
+          <p class="list-group-item-text">{{ post.content | strip_html | truncatewords: 20 }}</p>
         </div>
-    </section>
+      </div>
+      <div class="list-group-separator"></div>
+      {% endfor %}
+    </div>
+   
 
-<!-- Three -->
-    <section id="three">
-        <div class="container">
-            <h3>A Few Accomplishments</h3>
-            <p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum integer. Integer eu ante ornare amet commetus.</p>
-            <div class="features">
-                <article>
-                    <a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
-                    <div class="inner">
-                        <h4>Possibly broke spacetime</h4>
-                        <p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
-                    </div>
-                </article>
-                <article>
-                    <a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
-                    <div class="inner">
-                        <h4>Terraformed a small moon</h4>
-                        <p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
-                    </div>
-                </article>
-                <article>
-                    <a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
-                    <div class="inner">
-                        <h4>Snapped dark matter in the wild</h4>
-                        <p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
-                    </div>
-                </article>
-            </div>
-        </div>
-    </section>
+    <!-- Pagination links -->
+    {% if paginator.total_pages > 1 %}
+    <ul class="pager">
+      {% if paginator.previous_page %}
+        <li class="previous">
+          <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo;</a>
+        </li>
+      {% else %}
+        <li class="previous disabled"><span aria-hidden="true">&laquo;</span></li>
+      {% endif %}
+
+      <li><a href="/">First</a></li>
+
+      {% for page in (1..paginator.total_pages) %}
+        {% if page == paginator.page %}
+          <li class="active">
+             <a>{{ page }}<span class="sr-only">(current)</span></a>
+          </li>
+        {% elsif page == 1 %}
+          <li><a href="/">{{ page }}</a></li>
+        {% else %}
+          <li>
+            <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+          </li>
+        {% endif %}
+      {% endfor %}
+
+      <li><a href="/page{{ paginator.total_pages }}/">Last</a></li>
+
+      {% if paginator.next_page %}
+        <li class="next">
+          <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">&raquo;</a>
+        </li>
+      {% else %}
+        <li class="next disabled"><span>&raquo;</span></li>
+      {% endif %}
+    </ul>
+    {% endif %}
+</div><!-- end #home -->
