@@ -3,7 +3,7 @@ layout: simple
 title: KASAN (kernel Address SANitizer)
 ---
 
-## **What is KASAN**
+## **1. What is KASAN**
 
 KASAN (Kernel Address SANitizer) 란 kernel 동적 메모리 오류 탐지기로, UAF (Use-After-Free) 및 OOB(Out-Of-Bounds) 오류를 탐지할 수 있는 도구다.
 
