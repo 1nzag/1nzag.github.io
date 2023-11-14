@@ -27,6 +27,62 @@ CONFIG_KASAN = y
 + "Memory Debugging" 옵션 이동
 + "Use 'kernel address sanitizer' to detect use-after-free and out-of-bounds bugs" 옵션 활성화
 
+kasan 이 제대로 같이 빌드되었는지 다음과 같이 확인 할 수 있다.
+
++ 생성된 kernel image 에서 kasan 관련 심볼 확인
+```bash
+user@user:~/repo$ strings vmlinux | grep kasan
+0kasan: CONFIG_KASAN_INLINE enabled
+0kasan: GPF could be caused by NULL-ptr deref or user memory access
+6kasan: KernelAddressSanitizer initialized
+/goldfish/mm/kasan/common.c
+/goldfish/mm/kasan/init.c
+kasan: bad access detected
+/goldfish/mm/kasan/generic.c
+kasan_kmalloc
+kasan_check_write
+kasan_check_read
+kasan_restore_multi_shot
+kasan_save_enable_multi_shot
+kasan_multi_shot
+/out/kasan/goldfish
+kasan_depth
+kasan_early_init
+kasan_unpoison_task_stack
+kasan_init
+kasan_unpoison_stack_above_sp_to
+kasan_module_alloc
+kasan_populate_pud
+kasan_populate_early_shadow
+kasan_early_shadow_p4d
+kasan_mem_to_shadow
+kasan_map_early_shadow
+kasan_die_handler
+kasan_populate_shadow
+kasan_populate_p4d
+kasan_early_shadow_page
+kasan_early_p4d_populate
+kasan_early_shadow_pmd
+kasan_die_notifier
+kasan_early_shadow_pte
+kasan_early_shadow_pud
+kasan_populate_pgd
+kasan_populate_pmd
+kasan_poison_kfree
+kasan_poison_element
+kasan_unpoison_element
+kasan_unpoison_slab
+kasan_alloc_pages
+kasan_free_pages
+kasan_info
+kasan_cache
+[...]
+```
++ 커널 부팅 시 kasan 메시지 확인
+```
+[    0.000000] kasan: KernelAddressSanitizer initialized
+```
+
 ## **3. KASAN functions**
 
 config 파일을 이용하면 KASAN 이 가지고 있는 여러 기능들을 선택적으로만 추가 할 수 있다. 
