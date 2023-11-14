@@ -214,7 +214,7 @@ EXPORT_SYMBOL(commit_creds);
 다음과 같이 기존 cred 값 `rcu_assign_pointer(task->real_cred, new)` 및 `rcu_assign_pointer(task->cred, new)` 를 통해 새로운 `cred` 값을 덮어씌우는 것을 볼 수 있다. 
 + rcu_assign_pointer 는 첫번째 인자로 주어인 포인터를 두번째 인자로 주어진 포인터 값으로 할당해 주는 함수이다. 
 
-## 4. prepare_kernel_cred
+## **4. prepare_kernel_cred**
 
 `prepare_kernel_cred` 함수는 cred 구조체를 받아서 새로운 자격증명을 생성하는 함수이다. 
 
@@ -320,13 +320,13 @@ struct cred init_cred = {
 
 따라서 `prepare_kernel_cred(NULL)` 을 호출하면 `root` 의 자격 증명을 할당 받을 수 있다는 것을 알 수 있다. 
 
-## Conclusion
+## **Conclusion**
 
 따라서 linux kernel 에서 code-execution 이 되는 상황이라면, `commit_creds(prepare_kernel_cred(NULL))` 호출을 통해 root 권한을 자신에게 할당 받을 수 있다. 
 
 실제 linux kernel exploit 에서 code-execution premitive 달성시, 이러한 방법으로 루트 권한을 획득한다고 한다. 
 
-## References
+## **References**
 
 + https://cloudfuzz.github.io/android-kernel-exploitation/chapters/linux-privilege-escalation.html#process-credentials
 + https://wogh8732.tistory.com/308

@@ -1,3 +1,8 @@
+---
+layout: simple
+title: KASAN (kernel Address SANitizer)
+---
+
 ## **What is KASAN**
 
 KASAN (Kernel Address SANitizer) 란 kernel 동적 메모리 오류 탐지기로, UAF (Use-After-Free) 및 OOB(Out-Of-Bounds) 오류를 탐지할 수 있는 도구다.
@@ -11,7 +16,7 @@ kernel 에서 메모리 오류 탐지를 해야 하기 때문에 사용하려면
 
 일반적으로 커널을 빌드할 때 다음과 같은 옵션을 추가해 주면 KASAN 을 kernel 과 같이 빌드 할 수 있다. 
 
-```
+```bash
 CONFIG_KASAN = y
 ```
 
@@ -43,7 +48,7 @@ KASAN 의 기능들은 다음과 같다.
 
 다음은 android10 (goldfish) 를 빌드할 때 KASAN을 적용하는 config 파일 샘플이다. 
 
-```Makefile
+```bash
 ARCH=x86_64
 BRANCH=kasan
 
@@ -91,7 +96,7 @@ function update_kasan_config() {
 
 해당 config 파일을 빌드할때 다음과 같이 적용해 주면 KASAN의 선택적 기능을 같이 빌드 할 수 있다. 
 
-```
+```bash
 BUILD_CONFIG=[kasan config file path] build/build.sh
 ```
 
