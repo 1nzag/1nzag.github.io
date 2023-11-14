@@ -325,3 +325,9 @@ struct cred init_cred = {
 따라서 linux kernel 에서 code-execution 이 되는 상황이라면, `commit_creds(prepare_kernel_cred(NULL))` 호출을 통해 root 권한을 자신에게 할당 받을 수 있다. 
 
 실제 linux kernel exploit 에서 code-execution premitive 달성시, 이러한 방법으로 루트 권한을 획득한다고 한다. 
+
+## References
+
++ https://cloudfuzz.github.io/android-kernel-exploitation/chapters/linux-privilege-escalation.html#process-credentials
++ https://wogh8732.tistory.com/308
++ https://learn.dreamhack.io/61#5
