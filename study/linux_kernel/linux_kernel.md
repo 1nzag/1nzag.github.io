@@ -8,5 +8,7 @@ title: exploit linux kernel
 
 ### Basic
 
-- [linux credential gadgets](/study/linux_kernel/basic/commit_prepare_creds)
+- [commit_creds & prepare_kernel_cred](/study/linux_kernel/basic/commit_prepare_creds)
+- [KASAN](/study/linux_kernel/basic/KASAN)
+
 
