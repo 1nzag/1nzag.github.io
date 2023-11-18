@@ -328,6 +328,6 @@ struct cred init_cred = {
 
 ## **References**
 
-+ https://cloudfuzz.github.io/android-kernel-exploitation/chapters/linux-privilege-escalation.html#process-credentials
-+ https://wogh8732.tistory.com/308
-+ https://learn.dreamhack.io/61#5
++ <https://cloudfuzz.github.io/android-kernel-exploitation/chapters/linux-privilege-escalation.html#process-credentials>
++ <https://wogh8732.tistory.com/308>
++ <https://learn.dreamhack.io/61#5>

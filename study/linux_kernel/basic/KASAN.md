@@ -164,5 +164,5 @@ KASAN 의 기능을 공부하고, 실제 연구에 적용하는 것에 익숙해
 
 ## **References**
 
-+ https://cloudfuzz.github.io/android-kernel-exploitation/chapters/vulnerability-trigger.html#build-kernel-with-kasan
-+ https://www.kernel.org/doc/html/v4.14/dev-tools/kasan.html
++ <https://cloudfuzz.github.io/android-kernel-exploitation/chapters/vulnerability-trigger.html#build-kernel-with-kasan>
++ <https://www.kernel.org/doc/html/v4.14/dev-tools/kasan.html>
