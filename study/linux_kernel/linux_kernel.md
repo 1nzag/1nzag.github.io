@@ -12,5 +12,4 @@ title: exploit linux kernel
 - [KASAN](/study/linux_kernel/basic/KASAN)
 - [Android kernel debugging](/study/linux_kernel/basic/android_kernel_debugging)
 - [copy_from_user() function](/study/linux_kernel/basic/copy_from_user)
-
-
+- [SLUB Allocator & kmalloc()](/study/linux_kernel/basic/slub_allocator_kmalloc)
