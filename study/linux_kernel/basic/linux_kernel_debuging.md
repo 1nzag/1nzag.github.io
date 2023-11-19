@@ -165,7 +165,7 @@ qemu-system-x86_64 \
 
 + **-m**: 가상머신에 할당되는 메모리 양이다. 
 + **-cpu**: 가상머신에 사용될 CPU 모델과 기능이다. 
-    + 위의 파일에서 `kvm64`는 일반적으로 많이 사용되는 모델이고, `smap` 은 **Supervisor Mode Execution Protection** 이라는 mitigation을 적용한다는 뜻이다. 
+    + 위의 파일에서 `kvm64`는 일반적으로 많이 사용되는 모델이고, `smep` 은 **Supervisor Mode Execution Protection** 이라는 mitigation을 적용한다는 뜻이다. 
 + **-kernel**: 사용할 커널 이미지이다. 
 + **-initrd**: 초기 램 디스크(initrd)를 지정하는 옵션이다. 여기서는 루트 파일시스템을 주는 옵션이라고 까지만 알고 있자. 
 + **-snapshot**: 스냅샷 모드에서 실행한다. 이 모드에서 실행하면 가상 디스크에 대한 변경사항을 없애고, 가상머신 종료시 가상 디스크를 지운다. 
