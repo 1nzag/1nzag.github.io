@@ -1,6 +1,6 @@
 ---
 layout: simple
-title: Kernel Exploit Technique - modeprobe_path
+title: Kernel Exploit Technique - modprobe_path
 ---
 
 ## **1. Why use modprobe?**
