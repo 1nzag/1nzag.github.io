@@ -1,6 +1,6 @@
 ---
 layout: simple
-title: commit_creds & prepare_kernel_creds
+title: Kernel Exploit Technique - commit_creds & prepare_kernel_creds
 ---
 
 ## **1. task_struct**
