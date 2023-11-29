@@ -16,3 +16,4 @@ title: exploit linux kernel
 - [Linux Kernel Debugging](/study/linux_kernel/basic/linux_kernel_debuging)
 - [SMAP & SMEP](/study/linux_kernel/basic/smap_smep)
 - [Kernel Exploit TechTechnique - modeprobe_path](/study/linux_kernel/basic/modprobe_path)
+- [KPTI (Kernel Page Table Isolation)](/study/linux_kernel/basic/kpti_trampoline)
