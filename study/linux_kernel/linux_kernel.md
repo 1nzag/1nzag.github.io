@@ -18,3 +18,4 @@ title: exploit linux kernel
 - [Kernel Exploit TechTechnique - modeprobe_path](/study/linux_kernel/basic/modprobe_path)
 - [KPTI (Kernel Page Table Isolation)](/study/linux_kernel/basic/kpti_trampoline)
 - [Kernel exploit practice](/study/linux_kernel/basic/kernel_exploit_practice)
+- [copy_user_generic_unrolled() function](/study/linux_kernel/basic/copy_user_generic_unrolled)
