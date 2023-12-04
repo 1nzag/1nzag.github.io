@@ -4,4 +4,11 @@ layout: simple
 order: 1
 ---
 
-## **블로그 공사중 입니다.**
+## Whoami
+
++ secret
+
+## Interested in:
+
++ linux kernel
++ reversing
