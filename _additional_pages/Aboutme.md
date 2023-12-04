@@ -4,7 +4,7 @@ layout: simple
 order: 1
 ---
 
-## Whoami
+## Whoami:
 
 + secret
 
