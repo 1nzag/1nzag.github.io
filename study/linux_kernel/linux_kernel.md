@@ -19,3 +19,7 @@ title: exploit linux kernel
 - [KPTI (Kernel Page Table Isolation)](/study/linux_kernel/basic/kpti_trampoline)
 - [Kernel exploit practice](/study/linux_kernel/basic/kernel_exploit_practice)
 - [copy_user_generic_unrolled() function](/study/linux_kernel/basic/copy_user_generic_unrolled)
+
+### Case Study
+
+- [CVE-2022-32250 Review - Part 1](/study/linux_kernel/case_study/cve_2022_32250)
