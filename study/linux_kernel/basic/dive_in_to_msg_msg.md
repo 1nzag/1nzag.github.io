@@ -637,9 +637,14 @@ static inline void list_del(struct list_head *entry)
 }
 ```
 
-## **msg_msg queue**
+## **Conclusion**
 
 즉 확인을 해 봤을때, 메시지 객체는 일종의 pt_malloc 처럼 더블 링크드 리스트 형태로 관리되는 것을 확인 할 수 있다.
 
 만약 `msg_msg` 를 스프레이 한 상태에서 중간에 hole 을 생성하고, 그 부분에서 oob 를 트리거 할 수 있다면 `msg_msg`의 `m_list` 필드를 조작하여 특정부분의 주소를 릭 하거나, 특정 부분에 쓰기를 할 수 있을 가능성이 있다. 
+
+
+## **References**
+
++ <https://kernel.org>
 

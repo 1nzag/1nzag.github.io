@@ -20,6 +20,7 @@ title: exploit linux kernel
 - [Kernel exploit practice](/study/linux_kernel/basic/kernel_exploit_practice)
 - [copy_user_generic_unrolled() function](/study/linux_kernel/basic/copy_user_generic_unrolled)
 - [Kernel heap spray with msg_msg](/study/linux_kernel/basic/heap_spray_with_msg_msg)
+- [Dive into msg_msg](/study/linux_kernel/basic/dive_in_to_msg_msg)
 
 ### Case Study
 

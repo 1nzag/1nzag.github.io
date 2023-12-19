@@ -376,6 +376,8 @@ out_err:
 
 다음엔 위의 기법을 쓰는 원데이 익스플로잇을 리뷰할 생각이다. 
 
+`msg_msg`에 대해서 각 구조체 필드의 의미와 자료 저장 원리를 알고 싶다면 [이 포스트를 보자](/study/linux_kernel/basic/dive_in_to_msg_msg)
+
 ## **References**
 
 + <https://duasynt.com/blog/linux-kernel-heap-spray>
