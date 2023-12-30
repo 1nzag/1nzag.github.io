@@ -408,7 +408,7 @@ struct seq_operations {
 
 나중에 쓸 기회가 되면 이 포스트에 사용하는 방법까지 자세하게 포스트할 생각이다. 
 
-## **References
+## **References**
 
 + <https://github.com/esanfelix/r2con2019-ctf-kernel/blob/master/solution/README.md>
 + <https://blog.kakaocdn.net/dn/cw8D0r/btqFtKLLWSj/adwRN8BVxfOZwByjd0qN0K/%5B%EC%A0%95%EC%9E%AC%EC%98%81%5D%20ASIS%20CTF%202020%20shared_house.html?attach=1&knm=tfile.html>
