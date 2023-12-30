@@ -19,8 +19,14 @@ title: exploit linux kernel
 - [KPTI (Kernel Page Table Isolation)](/study/linux_kernel/basic/kpti_trampoline)
 - [Kernel exploit practice](/study/linux_kernel/basic/kernel_exploit_practice)
 - [copy_user_generic_unrolled() function](/study/linux_kernel/basic/copy_user_generic_unrolled)
-- [Kernel heap spray with msg_msg](/study/linux_kernel/basic/heap_spray_with_msg_msg)
-- [Dive into msg_msg](/study/linux_kernel/basic/dive_in_to_msg_msg)
+
+### Spray
+
+- [Kernel heap spray with msg_msg](/study/linux_kernel/spray/heap_spray_with_msg_msg)
+
+### Structures
+
+- [Dive into msg_msg](/study/linux_kernel/structures/dive_in_to_msg_msg)
 
 ### Case Study
 
