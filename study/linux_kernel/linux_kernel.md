@@ -27,6 +27,7 @@ title: exploit linux kernel
 ### Structures
 
 - [Dive into msg_msg](/study/linux_kernel/structures/dive_in_to_msg_msg)
+- [struct seq_operations](/study/linux_kernel/structures/seq_operations)
 
 ### Case Study
 
