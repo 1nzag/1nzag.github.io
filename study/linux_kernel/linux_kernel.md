@@ -26,9 +26,9 @@ title: exploit linux kernel
 
 ### Structures
 
-- [Dive into msg_msg - 48 ~ 4k](/study/linux_kernel/structures/dive_in_to_msg_msg)
-- [struct seq_operations - 32](/study/linux_kernel/structures/seq_operations)
-- [struct pipe_buffer - 1024](/study/linux_kernel/structures/pipe_buffer)
+- [Dive into msg_msg - (48 ~ 4k)](/study/linux_kernel/structures/dive_in_to_msg_msg)
+- [struct seq_operations - (32)](/study/linux_kernel/structures/seq_operations)
+- [struct pipe_buffer - (1024)](/study/linux_kernel/structures/pipe_buffer)
 
 ### Case Study
 
