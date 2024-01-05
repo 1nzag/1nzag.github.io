@@ -3,7 +3,7 @@ layout: simple
 title: Android kernel debugging
 ---
 
-## **Indrodution**
+## **Introdution**
 
 안드로이드 커널을 디버깅 하는 방법은 실기기에서 디버깅 하는 방법, 가상화를 이용한 방법 등이 있겠으나, 이 포스트에서는 가상화를 이용한 방법으로 커널 디버깅을 하겠다.
 환경은 `x86_64`, `linux(Ubuntu)` 이다. 
