@@ -39,6 +39,7 @@ title: exploit linux kernel
 - 🐧**CVE-2022-32250**
     - [CVE-2022-32250 Review - Part 1](/study/linux_kernel/case_study/cve_2022_32250)
     - [CVE-2022-32250 Review - Part 2](/study/linux_kernel/case_study/cve_2022_32250_part2)
+
 - 🐧**CVE-2022-0995**
     - [CVE-2022-0995 Review - Part 1](/study/linux_kernel/case_study/cve_2022_0995)
     - [CVE-2022-0995 Review - Part 2](/study/linux_kernel/case_study/cve_2022_0995_part2)
