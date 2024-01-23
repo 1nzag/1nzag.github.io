@@ -71,3 +71,4 @@ print(translator('I love graypanda'))
 ## **References**
 
 + <https://huggingface.co/learn/nlp-course/chapter1/3?fw=pt>
++ <https://huggingface.co/docs/transformers/main_classes/pipelines>
