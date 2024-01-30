@@ -33,6 +33,7 @@ title: exploit linux kernel
 
 - [Android kernel debugging](/study/linux_kernel/android/android_kernel_debugging)
 - [Build and emulate custom android kernel](/study/linux_kernel/android/build_and_emulate_custom_kernel)
+- [Build custom kernel on Pixel 6](/study/linux_kernel/android/build_custom_kernel_on_pixel_6)
 
 ### Case Study
 

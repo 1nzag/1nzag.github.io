@@ -1,6 +1,6 @@
 ---
 layout: simple
-title: Tokenizer
+title: (Transformer) Tokenizer
 ---
 
 ## **Intro**
