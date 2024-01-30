@@ -1,6 +1,6 @@
 ---
 layout: simple
-title: Build Custom kernel on Pixel 6
+title: Build custom kernel on Pixel 6
 ---
 
 ## **Intro**
@@ -16,7 +16,7 @@ title: Build Custom kernel on Pixel 6
 나는 해당 과정을 통해 커널 소스를 받았다. 
 
 ```bash
-repo init --depth=1 -u https://android.googlesource.com/kernel/manifest -b gs-android-gs-raviole-mainline
+repo init --depth=1 -u https://android.googlesource.com/kernel/manifest -b gs-android13-gs-raviole-5.15
 ```
 
 `gs-android-gs-raviole-mainline` 브랜치를 가져온 이유는 pixel 6 기기를 지원하는 커널 의 브랜치가 해당 브랜치이기 때문이다. 
