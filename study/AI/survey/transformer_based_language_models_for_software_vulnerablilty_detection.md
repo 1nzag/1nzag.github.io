@@ -1,7 +1,6 @@
 ---
 layout: simple
-title: Review - Transformer-Based Language Models for Software Vulnerability
-Detection
+title: Review - Transformer-Based Language Models for Software Vulnerability Detection
 ---
 
 ## **Intro**
@@ -40,7 +39,6 @@ Detection
 Datatranslation 과정에서 데이터를 준비하는 것이 얼마나 중요한 과정인지 알게 되었지만, 아직 fine-tunning 에서 layer 를 추가하는 방법에 대한 자세한 기술이 없어 고민이 완전히 해결되진 못했다. 
 
 표에 나온 Linear Layer 나 Dropout Layer 등을 공부해 볼 필요가 있을 것 같다. 그 내용을 이해하고 논문을 다시 보면 더 도움이 될 것 같다. 
-
 
 ## **References**
 
