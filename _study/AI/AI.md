@@ -4,8 +4,9 @@ title: AI
 ---
 
 ### Transformers
-- [pipeline](/study/AI/)
-
+- [pipeline](/study/AI/Transformers/pipeline)
+- [model](/study/AI/Transformers/model)
+- [tokenizer](/study/AI/Transformers/tokenizer)
 
 ### BERT
 - [How to Use BERT](/study/AI/BERT/how_to_use_bert)
