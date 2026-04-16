@@ -41,11 +41,27 @@ defaults:
 collections:
   additional_pages:
     output: true
+  ctf:
+    output: true
+  study:
+    output: true
+  literature:
+    output: true
+  others:
+    output: true
 
 plugins:
   - jekyll-mermaid
+  - jekyll-seo-tag
+  - jekyll-sitemap
 gems:
   - jekyll-mermaid
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# SEO Verification
+google_site_verification: "lDMQiQkm1EKibvhaanJKZlz0eJbk4GLexWJwXQcxRds"
+naver_site_verification: "a23abdb578788d6bb25ddb4aa4942a6a0face5c2"
 
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 markdown: kramdown 

@@ -4,9 +4,10 @@ layout: simple
 order: 4
 ---
 
-### [linux kernel exploitation](/study/linux_kernel/linux_kernel)
-### [AI](/study/AI/AI)
-
-  
-
-
+{% assign grouped = site.study | group_by: "dir" %}
+{% for group in grouped %}
+## {{ group.name | remove: "/study/" | remove: "/" }}
+{% for post in group.items %}
+### [{{ post.title | default: post.name }}]({{ post.url }})
+{% endfor %}
+{% endfor %}
