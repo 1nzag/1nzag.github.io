@@ -11,5 +11,9 @@ title: AI
 ### BERT
 - [How to Use BERT](/study/AI/BERT/how_to_use_bert)
 
+
+### Other
+- [RAG - review deepwiki-open](/study/AI/Other/rag)
+
 ### Survey
 - [Review - Transformer-Based Language Models for Software Vulnerability Detection](/study/AI/survey/transformer_based_language_models_for_software_vulnerablilty_detection)
