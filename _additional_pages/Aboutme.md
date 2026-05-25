@@ -14,18 +14,6 @@ order: 1
 > My core expertise lies in vulnerability research, and I am currently highly interested in applying LLMs to this field.
 > I have been working in penetration testing and red teaming since 2019, and gained significant experience in AI for security through participating in the AIxCC competition. I have extensive security analysis experience across various platforms, including IoT, embedded systems, web, and Android. My achievements include advancing to the DEFCON CTF Finals and winning awards in numerous domestic and international security competitions.
 
-## Work Experience
-
-- **Security Researcher** (2022.07 - 2026.06 Expected)
-  - Conducted vulnerability research and reverse engineering on IoT, embedded systems, web applications, and systems
-  - Researched Android application reverse engineering and obfuscation techniques
-  - Developed red team attack simulation tools and security analysis technologies
-  - Served as a project manager and technical lead for related tool development projects
-  - Designed and built internal development infrastructure
-- **Cyber Operations Command**
-  - **Cyber Tactical Training Instructor** (2021.08 - 2022.06): Managed the cyber defense training range and improved the quality of educational content
-  - **Vulnerability Analyst** (2019.07 - 2021.07): Conducted vulnerability assessments on weapon and computer systems, discovering and mitigating over 30 vulnerabilities. Contributed to the annual revision of the Defense Vulnerability Analysis Practical Guide
-
 ## Projects
 
 - **Team Atlanta - AIxCC Challenge** (2024 - 2025)
